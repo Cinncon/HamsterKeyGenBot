@@ -1,0 +1,1 @@
+# Hamster Kombat Key Generator

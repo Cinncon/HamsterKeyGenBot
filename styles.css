@@ -1,0 +1,182 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Sayfa kaydırmalarına izin ver */
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('icon.png') no-repeat center center fixed;
+    background-size: cover; /* Arka plan resmini ekran boyutuna göre ölçeklendirir */
+    color: #fff; /* Ekrandaki tüm yazılar beyaz */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.language-selection {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10; /* Üstte kalması için z-index ekleyin */
+}
+
+.language-btn {
+    background-color: transparent;
+    border: 1px solid #fff; /* Buton kenar rengini beyaz */
+    color: #fff; /* Buton yazı rengini beyaz */
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.language-btn.selected {
+    background-color: #fff; /* Seçili butonun arka plan rengini beyaz */
+    color: #007bff; /* Seçili butonun yazı rengini mavi */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Şeffaf siyah arka plan */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: auto; /* İçeriğin kaydırılabilir olmasını sağla */
+}
+
+h1 {
+  font-family: 'Carolyna Pro', cursive;
+  font-size: 40px;
+  color: #FFFFFF; /* White color */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  font-style: italic; /* Add a slight italicization */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff; /* Label yazısı beyaz */
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff; /* Buton yazı rengi beyaz */
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.progress-bar {
+    background-color: #444; /* Daha koyu gri bir arka plan rengi */
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 30px;
+    position: relative;
+}
+
+.progress-bar div {
+    height: 100%;
+    background-color: #007bff;
+    width: 0;
+    transition: width 0.5s;
+}
+
+#progressText {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff; /* İlerleme metni beyaz */
+}
+
+.key-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.key-item input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.copyKeyBtn {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    color: #fff; /* Buton yazı rengi beyaz */
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copyKeyBtn:hover {
+    background-color: #218838;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#copyStatus {
+    margin-top: 10px;
+    color: #28a745; /* Kopyalama durumu yeşil */
+}
+
+#telegramAdminBtn, #telegramChannelBtn {
+    background-color: #007bff;
+    color: #fff; /* Buton yazı rengi beyaz */
+}
+
+#telegramAdminBtn:hover {
+    background-color: #0056b3;
+}
+
+#telegramChannelBtn:hover {
+    background-color: #0056b3;
+}
+
+#countdownContainer {
+    display: none; /* İlk başta gizle */
+    font-size: 1.5em;
+    color: #ff0000; /* Geri sayım metni kırmızı */
+    margin: 10px 0;
+}
