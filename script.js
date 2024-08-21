@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
             appToken: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
             promoId: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
             eventsDelay: 20000,
-            attemptsNumber: 10,
+            attemptsNumber: 16,
             
 	}
     };
