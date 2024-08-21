@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             attemptsNumber: 10,
         },
         5: {
-            name: 'MergeAway',
+            name: 'Merge Away',
             appToken: '8d1cc2ad-e097-4b86-90ef-7a27e19fb833',
             promoId: 'dc128d28-c45b-411c-98ff-ac7726fbaea4',
             eventsDelay: 20000,
@@ -46,7 +46,15 @@ document.addEventListener('DOMContentLoaded', () => {
             eventsDelay: 20000,
             attemptsNumber: 10,
             
-        }
+        },
+        6: {
+            name: 'Polysphere',
+            appToken: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+            promoId: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+            eventsDelay: 20000,
+            attemptsNumber: 10,
+            
+	}
     };
 
 
