@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'My Clone Army',
             appToken: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
             promoId: 'fe693b26-b342-4159-8808-15e3ff7f8767',
-            eventsDelay: 180000,
+            eventsDelay: 150000,
             attemptsNumber: 30,
         },
         4: {
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
             appToken: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
             promoId: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
             eventsDelay: 20000,
-            attemptsNumber: 20,
+            attemptsNumber: 16,
             
 	},
         8: {
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             appToken: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
             promoId: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
             eventsDelay: 20000,
-            attemptsNumber: 20,
+            attemptsNumber: 15,
             
 	},
         9: {
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             appToken: '8814a785-97fb-4177-9193-ca4180ff9da8',
             promoId: '8814a785-97fb-4177-9193-ca4180ff9da8',
             eventsDelay: 20000,
-            attemptsNumber: 20,
+            attemptsNumber: 15,
             
 	}
     };
