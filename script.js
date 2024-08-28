@@ -18,13 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
             eventsDelay: 21000,
             attemptsNumber: 20
         },
-        3: {
-            name: 'My Clone Army',
-            appToken: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
-            promoId: 'fe693b26-b342-4159-8808-15e3ff7f8767',
-            eventsDelay: 121000,
-            attemptsNumber: 30,
-        },
         4: {
             name: 'Train Miner',
             appToken: '82647f43-3f87-402d-88dd-09a90025313f',
@@ -70,7 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
             eventsDelay: 21000,
             attemptsNumber: 15,
             
-	}
+	},
+        3: {
+            name: 'Cafe Dash',
+            appToken: 'c0971b8-04df-4e72-8a3e-ec4dc663cd11',
+            promoId: 'c0971b8-04df-4e72-8a3e-ec4dc663cd11',
+            eventsDelay: 23000,
+            attemptsNumber: 16,
+        },
     };
 
 
